@@ -1,9 +1,9 @@
 security:
   oauth2:
     client:
-      clientId: account-service
+      clientId: ericwanacct20190825
       client-secret: XUoJBrTtqXBonU5zMVzSUtrLPKRQztLUQE4poDoIR1QdcDfGgnGgJO5wbFC7xCEL
-      accessTokenUri: http://gateway/uaa/oauth/token
+      accessTokenUri: http://ericwangw20190825/uaa/oauth/token
       grant-type: client_credentials
       scope: server
 

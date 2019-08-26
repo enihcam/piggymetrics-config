@@ -17,16 +17,16 @@ zuul:
     socket-timeout-millis: 20000
 
   routes:
-    auth-service:
+    ericwanauth20190825:
         path: /uaa/**
-        #url: http://auth-service:5000
-        serviceId: auth-service
+        url: http://ericwanauth20190825:5000
+        serviceId: ericwanauth20190825
         stripPrefix: false
         sensitiveHeaders:
 
-    account-service:
+    ericwanacct20190825:
         path: /accounts/**
-        serviceId: account-service
+        serviceId: ericwanacct20190825
         stripPrefix: false
         sensitiveHeaders:
 
